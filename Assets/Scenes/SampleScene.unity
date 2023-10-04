@@ -293,8 +293,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
-  - component: {fileID: 519420033}
-  - component: {fileID: 519420034}
+  - component: {fileID: 519420035}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -376,7 +375,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &519420033
+--- !u!114 &519420035
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -385,25 +384,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34c36c79ba04b7241a9232bfdb563dcc, type: 3}
+  m_Script: {fileID: 11500000, guid: 6ec14e0498737a845b1c4d3fea98afa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _path: {fileID: 1380361613}
-  _template: {fileID: 695509636993524046, guid: 2f7eeaf41636b0f4f8ca52ea6858fd36, type: 3}
---- !u!114 &519420034
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9085209a43531204ebc6f2fbcc1fbdbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _path: {fileID: 1523358325}
-  _template: {fileID: -7587048846274307254, guid: 49e6ee33250214a9facc214f3a2fecb7, type: 3}
+  _pathEnemy: {fileID: 1380361613}
+  _pathCoin: {fileID: 1523358325}
+  _templateEnemy: {fileID: 695509636993524046, guid: 2f7eeaf41636b0f4f8ca52ea6858fd36, type: 3}
+  _templateCoin: {fileID: -7587048846274307254, guid: 49e6ee33250214a9facc214f3a2fecb7, type: 3}
 --- !u!1 &654067282
 GameObject:
   m_ObjectHideFlags: 0
@@ -1130,7 +1117,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1380361613}
   m_Layer: 0
-  m_Name: Path
+  m_Name: PathEnemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
